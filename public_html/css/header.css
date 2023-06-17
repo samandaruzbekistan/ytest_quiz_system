@@ -1,0 +1,25 @@
+.navbar {
+background-color: rgba(5, 218, 136, 0.838);
+}
+
+.navbar a {
+color: white;
+}
+
+.navbar button {
+/* background-color: white; */
+}
+
+.navbar button span{
+color: white;
+}
+
+.navbar li:first-child a{
+color: blue;
+font-size: 20px;
+margin-top: -4px;
+}
+
+.navbar .dropdown-menu a {
+color: black !important;
+}

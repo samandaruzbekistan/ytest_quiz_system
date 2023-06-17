@@ -1,0 +1,38 @@
+============[Date]============
+[ 2023-01-11 22:55:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 465488351
+ref.message.message_id= 284
+ref.message.from.id= 848511386
+ref.message.from.is_bot= false
+ref.message.from.first_name= Samandar
+ref.message.from.username= Samandar_developer
+ref.message.from.language_code= en
+ref.message.from.is_premium= true
+ref.message.chat.id= 848511386
+ref.message.chat.first_name= Samandar
+ref.message.chat.username= Samandar_developer
+ref.message.chat.type= private
+ref.message.date= 1673466908
+ref.message.text= Ro'yxatdan o'tish 🗒
+
+
+[ref]
+ref.text= Ism familyangizni yuboring
+ref.parse_mode= HTML
+ref.reply_markup.hide_keyboard= true
+
+
+============[Trace]===========
+#0 /home/y/yongoqpb/ytest.uz/public_html/bot/Telegram.php(3228): TelegramErrorLogger::log(Array, Array)
+#1 /home/y/yongoqpb/ytest.uz/public_html/bot/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/y/yongoqpb/ytest.uz/public_html/bot/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/y/yongoqpb/ytest.uz/public_html/bot/bot.php(90): Telegram->sendMessage(Array)
+#4 /home/y/yongoqpb/ytest.uz/public_html/bot/bot.php(45): sendMessage('Ism familyangiz...')
+#5 {main}
+
