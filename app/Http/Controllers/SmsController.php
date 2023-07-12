@@ -39,11 +39,11 @@ class SmsController extends Controller
             'multipart' => [
                 [
                 'name' => 'email',
-                'contents' => 'blogerotayorov@gmail.com'
+                'contents' => 'your_email'
                 ],
                 [
                 'name' => 'password',
-                'contents' => 'c9ZAinVOdtS6lWJI45HqATdr0T4M5xDKPTW8W2bx'
+                'contents' => 'your_password'
                 ]
             ]];
             $request = new \GuzzleHttp\Psr7\Request('POST', 'notify.eskiz.uz/api/auth/login');
@@ -116,11 +116,11 @@ class SmsController extends Controller
             'multipart' => [
                 [
                 'name' => 'email',
-                'contents' => 'blogerotayorov@gmail.com'
+                'contents' => 'your_email'
                 ],
                 [
                 'name' => 'password',
-                'contents' => 'c9ZAinVOdtS6lWJI45HqATdr0T4M5xDKPTW8W2bx'
+                'contents' => 'your_password'
                 ]
             ]];
             $request = new \GuzzleHttp\Psr7\Request('POST', 'notify.eskiz.uz/api/auth/login');
